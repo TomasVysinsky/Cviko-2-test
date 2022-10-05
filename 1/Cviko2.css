@@ -1,0 +1,48 @@
+body {
+    background-image: url("https://www.napalete.sk/wp-content/uploads/2015/07/nocnaobloha.jpeg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+.slnko {
+    background-image: url("https://m.smedata.sk/api-media/media/image/sme/2/44/44382/44382_1200x.jpg?rev=1");
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.vtak {
+    background-image: url("https://m.smedata.sk/api-media/media/image/sme/0/39/395480/395480_1200x.jpg?rev=1");
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+
+}
+
+.hp {
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+.dp {
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+.lp {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+.otoc {
+    transform: scaleX(-1);
+}

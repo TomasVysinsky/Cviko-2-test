@@ -1,0 +1,51 @@
+table, th, td {
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+
+th {
+    color: white;
+    background-color: darkgreen;
+    font-weight: bold;
+}
+th::first-letter{
+    color: yellow;
+}
+tr:nth-child(2n+3) {
+    background-color: lightgray;
+}
+
+td:nth-child(2) {
+    text-transform: uppercase;
+}
+
+tr:hover {
+    background-color: grey;
+}
+
+tr:hover td:nth-child(1) {
+    color: red;
+}
+tr:hover td:nth-child(1):hover {
+    color: black;
+}
+
+td:nth-child(4),
+td:nth-child(5),
+td:nth-child(6)
+{
+    text-align: center;
+}
+
+tr:hover td:nth-child(4),
+tr:hover td:nth-child(5),
+tr:hover td:nth-child(6)
+{
+    background-color: blue;
+}
+
+th:nth-of-type(7)
+td:nth-of-type(7)
+{
+    display: none;
+}
